@@ -1,0 +1,143 @@
+<html>
+    <head> 
+        <title> my first form </title>
+        <link rel = "stylesheet" href = "style.css">
+        
+    </head>
+    <body> 
+        <h1> Welcome to Angel's friend test 💜</h1>
+        <form action="https://formsubmit.co/angelgupta87092@gmail.com"
+      method="POST"
+      enctype="multipart/form-data">
+            <input type="hidden" name="_subject"
+       value="New response - Angel's Friend Test">
+
+            <input type="hidden" name="_next"
+       value="https://angel-friend-test.vercel.app/thank-you.html">
+            <fieldset>
+                <legend> Personal details</legend>
+                        
+                        <label for = "name" > Enter your name </label>
+                        <input type = "text" name = "name" id = "name" placeholder = "your name" required>
+                        <br>
+                            
+                        <label for ="email"> Enter your email</label>
+                        <input type = "email" name = "email" id = "email" placeholder = "abc@gmail.com" required>
+                        <br>
+                        <br>
+                        <label for ="date"> My Date of Birth </label>
+                        <input type = "date" name = "date" id = "date" placeholder = "enter my date of birthday" required>
+                        <br>
+                        <br>
+                        </fieldset>
+
+
+            <fieldset>
+                <legend>How well do u know me ?🎀</legend>
+                        <label for ="food" > 1.Which one i will choose first?</label><br>
+                        <input type="radio" name = "food"  id = "food1" value = "Biryani"required> 
+                        Biryani
+                        <input type ="radio" name = "food" id = "food2" value = "momos"> 
+                        Momos
+                        <input type ="radio" name = "food" id = "food3" value = "chocolate">
+                        Chocolate
+                        <input type ="radio" name = "food" id = "food4" value = "dosa">
+                        Dosa
+                        <br>
+                        
+
+                        <label for ="color">2. My fav color?</label><br>
+                        <input type = "radio" name = "color" id = "color1" value = "red "required>
+                        RED
+                        <input type ="radio" name = "color" id = "color2" value = "blue">
+                        BLUE
+                        <input type = "radio" name = "color" id = "color3" value = "yellow">
+                        YELLOW
+                        <input type = "radio" name = "color" id = "color4" value = "black">
+                        BLACK
+                        <input type = "radio" name = "color" id = "color5" value = "white"> 
+                        WHITE
+                        
+                        <br> 
+
+
+                        <label for ="gifts" required>3.Which gift do I like most? </label><br>
+                        <input type = "radio" name = "gifts"  id  = "gifts1" value = "flowers" required>
+                        Flowers
+                        <input type = "radio" name = "gifts" id = "gifts2" value = "chocolates">
+                        Chocolates
+                        <input type = "radio" name = "gifts" id = "gifts3" value = "teddy">
+                        Teddy 
+                        <input type = "radio" name = "gifts" id = "gifts4" value = "watch">
+                        Watch
+            <br>        
+
+
+                        <label for = "song" required> 4.My fav Song </label><br>
+                        <input type ="radio" name = "song" id = "song1" value = "Fitoor"required>
+                        Fitoor
+                        <input type = "radio" name = "song" id = "song2" value = "Ranjhana">
+                        Ranjhana
+                        <input type = "radio" name = "song" id = "song3" value = "Mere Hamsafar">
+                        Mere Hamsafar
+                        <input type = "radio" name = "song" id = "song4" value = "Tum tak">
+                        Tum tak
+                        <input type = "radio" name = "song" id = "song5" value = "Shiddat">
+                        Shiddat
+                        <br> 
+            
+
+                        <label for ="sad" >5. Which things hurt me the most?</label>
+                        <br>
+                        <textarea id = "sad" 
+                        name = "sad" 
+                        rows="4" cols = "40"
+                        placeholder = "Enter ur answer here" required>
+                        
+
+                        </textarea>
+                        <br><br>
+
+                        <label for ="happy"> 6.Which things make me happy?</label>
+                        <textarea id = "happy" name = "happy" 
+                        rows = "4" cols="40" placeholder=" Enter ur ans.." required></textarea>
+                        <br>
+
+                        <label for = "msg" required> 7.Write a secret message for me💗 </label><br>
+                        <textarea id = "msg" name = "msg" placeholder = "Enter your message here" rows = "4" cols="40" required></textarea>
+
+                        <br>
+            </fieldset>
+
+        <fieldset>
+            <legend>Our Memories 📸</legend>
+            <label for ="photo" required> Upload a photo of me with you...</label>
+            <input type = "file" name = "photo" id = "photo" accept = "image/*">
+            <p class = "ba"> 
+                Don't have a single photo of us ?? 
+                U r not my frnd 😂</p>
+
+            </fieldset>
+            <br>
+            <br>
+            
+            <div class = "button">
+
+            <button type = "Submit" > Submit 💜</button>
+            <button type="reset">Clear Form</button></div>
+
+
+            
+    
+
+
+
+
+
+
+
+
+
+        </form>
+    </body>
+</html>
